@@ -7,10 +7,10 @@ tags:
 typora-root-url: ../../../note
 ---
 
-![latex_2](/assets/images/latex_2.jpeg)
+![latex_2](assets/images/latex-2.jpg)
 
-![latex_3](/assets/images/latex_3.jpeg)
+![latex_3](assets/images/latex-3.jpg)
 
-![latex_4](/assets/images/latex_4.jpeg)
+![latex_4](assets/images/latex-4.jpg)
 
-![latex_5](/assets/images/latex_5.jpeg)
+![latex_5](assets/images/latex-5.jpg)
