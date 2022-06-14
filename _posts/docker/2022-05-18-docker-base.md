@@ -16,15 +16,9 @@ tags:
 
 [仓库 https://hub.docker.com/](https://hub.docker.com/)
 
-### 安装
+### 重启
 
-> 环境查看
-
-```shell
-# 内核版本
-$ uname -r
-21.4.0
+```bash
+sudo systemctl daemon-reload && sudo systemctl restart docker
 ```
-
-### 文档
 
