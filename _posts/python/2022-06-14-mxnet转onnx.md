@@ -37,12 +37,17 @@ tags:
 },
 ```
 
+```bash
+:%s/SoftmaxActivation/softmax/g
+:%s/"mode": "channel"/"axis": "1"/g
+```
+
 
 
 ### 添加 `UpSampling`、`Crop`算子，替换`softmax`算子
 
 ```python
-# {PYTHON_ENV}/site-packages/mxnet/contrib/onnx/mx2onnx/_op_translations.py
+# {PYTHON_ENV}/site-packages/mxnet/onnx/mx2onnx/_op_translations.py
 
 @mx_op.register("UpSampling")
 def convert_upsample(node, **kwargs):
